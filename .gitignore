@@ -1,0 +1,18 @@
+# Runtime credentials and forum exports must never enter this repository.
+.env
+.env.*
+*.pem
+*.key
+*.sql
+*.sqlite
+*.db
+*.log
+*.zip
+**/inc/config.php
+**/inc/settings.php
+private/
+work/
+dist/
+__pycache__/
+.DS_Store
+Thumbs.db
